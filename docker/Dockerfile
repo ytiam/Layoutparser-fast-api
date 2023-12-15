@@ -30,7 +30,8 @@ RUN pip install layoutparser &&\
     apt install libtesseract-dev -y &&\
     pip install fastapi &&\
     pip install "uvicorn[standard]" &&\
-    pip install python-multipart
+    pip install python-multipart &&\
+    pip install easyocr
 
 RUN git clone https://github.com/ytiam/Layoutparser-fast-api.git
 
